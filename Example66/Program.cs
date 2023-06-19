@@ -6,9 +6,9 @@ using System;
 using static System.Console;
 Clear();
 Write("Введите число M: ");
-int m = Convert.ToInt32(ReadLine());
+int m = int.Parse(ReadLine());
 Write("Введите число N: ");
-int n = Convert.ToInt32(ReadLine());
+int n = int.Parse(ReadLine());
 SumFromMToN(m, n);
 void SumFromMToN(int m, int n)
 {
